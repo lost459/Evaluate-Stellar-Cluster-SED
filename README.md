@@ -3,6 +3,7 @@ This repository contains a set of functions used to evaluate the SED of a stella
 
 Function: 
  - Agefit(mag, err)
+
 Inputs:
  - mag  = [FUV, NUV, U, B, V, R, I, J, H, K, u, g, r, i, z, f300w, f336w, f435w, f450w, f555w, f606w, f814w], a 1 x 22 array containing    the apparent magnitudes in a range of spectral filters.
  - err, a 1 x 22 array containing the corresponding errors in the measurements of the apparent magnitudes.
