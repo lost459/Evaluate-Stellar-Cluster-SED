@@ -1,7 +1,7 @@
 # Evaluate-Stellar-Cluster-SED
 This repository contains a set of functions used to evaluate the SED of a stellar cluster to provide estimations of its age, metallicity, mass and V-band extinction. Two evaluations are made, one using a single-star BPASS v 2.2 model set and another using a binary BPASS v 2.2 model set. This code is provided as supplementary material to an investigation regarding the effects of accounting for binary-star interactions when evaluating the unresolved photometry of stellar clusters.
 
-#####
+**********
 
 Function: 
  - Agefit(mag, err)
@@ -14,7 +14,7 @@ Output:
  - a 1 x 4 array
    containing the average best-fit log(age/yrs) using a single-star and binary evaluation: [Average best-fit Single log(age), associated    uncertainty, Average best-fit Binary log(age), associated uncertainty]
 
-#####
+**********
 
 Function: 
  - Zfit(mag, err)
@@ -26,7 +26,7 @@ Inputs:
 Output:
  - a 1 x 4 array containing the average best-fit log(Z) using a single-star and binary evaluation: [Average best-fit Single log(Z),        associated uncertainty, Average best-fit Binary log(Z), associated uncertainty]
  
-#####
+**********
  
 Function: 
  - Dustfit(mag, err, Amin)
@@ -39,7 +39,7 @@ Inputs:
 Output:
  - a 1 x 4 array containing the average best-fit V-band extinction using a single-star and binary evaluation: [Average best-fit Single      A_V, associated uncertainty, Average best-fit Binary A_V, associated uncertainty]
  
-##### 
+**********
  
 Function: 
  - Massfitv1(mag, err, dmod)
@@ -52,7 +52,7 @@ Inputs:
 Output:
  - a 1 x 4 array containing the average best-fit log(Mass/M_solar) using a single-star and binary evaluation: [Average best-fit Single      log(Mass/M_solar), associated uncertainty, Average best-fit Binary log(Mass/M_solar), associated uncertainty]
 
-#####
+**********
 
 Function: 
  - Clusterfit(mag, err, Amin)
@@ -65,7 +65,7 @@ Inputs:
 Output:
  - a 1 x 12 array containing the average best-fit log(age/yrs), log(Z) and V-band extinction using a single-star and binary evaluation:    [Average best-fit Single log(age/yrs), associated uncertainty, Average best-fit Binary log(age/yrs), associated uncertainty, Average    best-fit Single log(Z), associated uncertainty, Average best-fit Binary log(Z), associated uncertainty, Average best-fit Single A_V,    associated uncertainty, Average best-fit Binary A_V, associated uncertainty]
  
- #####
+**********
  
  Function: 
  - Massfitv2(mag, err, Amin, dmod)
